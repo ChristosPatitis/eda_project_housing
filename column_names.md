@@ -21,3 +21,9 @@
 - **long** - Longitude coordinate
 - **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
 - **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+- **map_id** - The spesific point to the map of long and lat combination
+- **AirportCode** - The three letter code for each airport
+- **AirportName** - The name of the airport
+- **Latitude** - The lat of airport
+- **Longtitude** - The long of airport
+- **location** - The location in tha map ( canter, outskirts)
