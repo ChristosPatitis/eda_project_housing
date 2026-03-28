@@ -69,12 +69,6 @@ By looking at the top 20% of properties, it becomes clear that there is a distin
 
 ---
 
-## Sample Visualizations
-
-(Add 1–2 screenshots here from your notebook)
-
----
-
 ## How to Run This Project
 
 1. Clone the repository
