@@ -1,45 +1,110 @@
-# King County Housing EDA
+# # King County Housing Price Analysis
 
 ## Project Overview
-Exploratory data analysis of King County house sales to identify pricing patterns, location-based insights, and practical recommendations for buyers/sellers.
 
-## Objectives
-- Clean and explore the housing dataset
-- Identify at least 3 key insights, including one geographic insight
-- Provide business recommendations for a client scenario
+In this project, I explored housing data from King County to understand what really drives house prices. The focus was on identifying patterns in the data and turning them into useful insights for buyers, sellers, and investors.
 
-## Dataset
-- King County house sales dataset
-- Raw and cleaned versions stored in the `data/` folder
-- Additional airport/location enrichment included in `merged_dataset.csv`
+---
 
-## Tools
-Python, Pandas, Matplotlib, Seaborn, Missingno, Folium, Jupyter
+## What I Wanted to Find Out
 
-## Repository Structure
-- `EDA.ipynb` – main analysis notebook
-- `data_cleaning.ipynb` – data preparation work
-- `data/` – raw and cleaned datasets
-- `maps/` – map outputs / code
-- `screenshots/` – saved visualizations
-- `presentation/` – slides or PDF presentation
+* What factors influence house prices the most
+* How location affects property value
+* Whether features like size or waterfront access make a difference
+* How prices and activity change over time
 
-## Key Insights
-- ...
-- ...
-- ...
+---
 
-## Recommendations
-- ...
-- ...
-- ...
+## Tools Used
 
-## How to Run
-1. Clone the repo
-2. Install dependencies
+* Python (Pandas, NumPy)
+* Matplotlib and Seaborn
+* Jupyter Notebook
+
+---
+
+## How the Project is Structured
+
+* `notebooks/` – main analysis
+* `data/` – datasets used
+* `outputs/` – visualizations
+* `docs/` – additional notes
+
+---
+
+## Main Analysis
+
+### Price Distribution
+
+Most houses fall into a moderate price range, but there are a few very expensive properties that push the distribution upward.
+
+### Living Space vs Price
+
+There is a clear relationship between size and price. Bigger houses generally cost more, although there are exceptions.
+
+### Location
+
+Location plays a big role. Some areas consistently have higher prices, and high-value properties tend to cluster in specific regions.
+
+### Waterfront Properties
+
+Houses with waterfront access are noticeably more expensive and form a premium segment of the market.
+
+### Time Trends
+
+Prices fluctuate over time rather than following a straight trend. Market activity also changes from month to month.
+
+### Segmentation
+
+By looking at the top 20% of properties, it becomes clear that there is a distinct high-end segment with different characteristics.
+
+---
+
+## Key Takeaways
+
+* Size and location are the biggest drivers of price
+* Waterfront properties significantly increase value
+* Prices vary a lot depending on the area
+* The market changes over time rather than moving in a straight line
+
+---
+
+## Sample Visualizations
+
+(Add 1–2 screenshots here from your notebook)
+
+---
+
+## How to Run This Project
+
+1. Clone the repository
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the notebook and run all cells
+
+---
+
+## Final Thoughts
+
+This project helped me understand how different factors interact to shape housing prices. It also showed how important it is to combine data analysis with real-world context when making decisions.
+
+---
+
+## Future Improvements
+
+* Build a model to predict house prices
+* Create a dashboard for easier exploration
+* Improve the geographic analysis
+
 3. Open notebooks in Jupyter
 
 ## Future Improvements
 - Refactor cleaning into scripts
 - Add clearer visuals
 - Improve notebook storytelling
+ 
+## Author
+- Christos Patitis
